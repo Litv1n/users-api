@@ -4,7 +4,7 @@ User's API source code
 # Run API
 1. Build Docker and docker-compose files
 
-In the app directory run the commands below
+In the users-api directory run the commands below
 
 ```
 docker build .
@@ -30,4 +30,4 @@ You can find each user using the ```userId``` by going to the URL ```/search/{us
 ### Update user password
 Update user instance password using the ```userId``` by going to the URL ```/update-password/{userId}```.
 ### Delete user
-Delete user instance using the ```userId``` by going to the URL ```/delete-user/{userId}
+Delete user instance using the ```userId``` by going to the URL ```/delete-user/{userId}```
